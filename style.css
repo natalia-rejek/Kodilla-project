@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body {
+	padding: 0;
+	margin: 0 auto; 
+	font-family: Quicksand;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nav:before, .nav:after, .row:before, .row:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+	
+header {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header .container {
+	background-color: #282825;
+    color: white;
+}
+
+header li {
+	display: inline-block;
+}
+
+header ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+}
+
+header a {
+	line-height: 78px;
+	padding: 0 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+header a:hover {
+	background: #44443f;
+	color: #F307B5;
+	font-weight: 700;
+}
+
+header img {
+	margin: 10px 0;
+}
+
+.hero {
+	background: url("http://nicelady.pl/wp-content/uploads/bfi_thumb/fit-mysu132faf6jmr5k8ma7lbg5vfbpevlif6er29mzyg.jpg") center no-repeat;
+}
+
+.slogan {
+	background: rgba(12, 5, 13, 0.64);
+	float: right;
+	max-width: 800px;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.slogan h1 {
+	padding: 5px 0;
+}
+
+.green {
+	color: #07CB95;
+}
+
+.pink {
+	color: #F307B5;
+}
+
+.icon {
+	text-align: center;	
+}
+
+ .icons-container .fa {
+	padding: 20px;
+    font-size: 50px;
+    border-radius: 25px;
+    color: white;
+    background-color: #282825;
+    margin-bottom: 20px;
+}
+
+.icons-container h2 {
+	display: block;
+	margin: 10px;
+	font-weight: bold;
+	font-size: 19px;
+	transition: background linear .3s;
+}
+
+.icons-container p {
+	padding: 0 30px;	
+	font-size: 13px;
+	line-height: 20px;
+	color: #8b8484;
+}
+
+.icons-container:hover i {
+	background-color: #07CB95;
+	cursor: pointer;
+} 
+
+.icons-container:hover h2 {
+	color: #07CB95;
+	cursor: pointer;
+}
+
+.featured-works {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.container-fw {
+	max-width: 800px;
+	margin: auto;	
+}
+
+.featured-works h3 {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.featured-works p {
+	color: #8b8484;
+	margin: 20px 0;
+	line-height: 22px;
+}
+
+.layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	line-height: 180px;
+	visibility: hidden;
+}
+
+.gallery [class*='col-'] {
+	position: relative;
+}
+
+.gallery img {
+	display: block;
+	width: 100%;
+	height: 170px;
+	object-fit: cover;	
+}
+	
+ [class*='col']:hover .layer {
+	visibility: visible;
+}
+
+button:hover {
+	color: #07CB95;
+	cursor: pointer;
+}
+
+.team {
+	margin: 10vh 0; 
+}
+
+.circle {
+	text-align: center;
+	height: 220px;
+}
+
+.circle>img {
+	height: 200px;
+	width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle h4 {
+	padding: 20px;
+}
+
+[class*='col']:hover .layer1 {
+	visibility: visible;
+}
+
+.layer1 {
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.layer1 h5 {
+	display: inline;
+	font-size: 20px;
+	color: white;
+	line-height: 200px;
+	font-weight: bold;
+}
+
+.about {
+	background: url("http://www.rslhealthclub.com.au/acquatic-centre/Gym/gym_weights_edited.jpg") center no-repeat;
+	background-attachment: fixed;
+}
+
+[class*='text-'] {
+	float:left;
+  	background-color: rgba(0, 0, 0, 0.5);	
+}
+
+.text-1 {
+	width:60%;
+}
+
+.text-2 {
+	width:30%;
+}
+
+.about h1 {
+	color: white;
+	padding: 10px;
+	line-height: 20px;
+}
+
+.about h2 {
+	color: white;
+	font-size: 20px;
+}
+
+.numbers {
+	text-align: center;
+}
+
+.numbers h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.numbers h2 {
+	color: #07CB95;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.numbers>.row>[class*="col-"] {
+	max-height: 130px;
+}
+
+footer  {
+	color: white;
+	background-color: #282825;
+}
+
+footer h3 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+footer .container-3 {
+	height: 50px;
+	background-color: black;
+	text-align: center; 
+}
+
+footer .container-3 p {
+	line-height: 50px;
+}
+
+footer .icon-btn {
+	text-align: center;
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	border: 0;
+	border-radius: 50%;
+	margin-right: 0.5em;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #fff;
+}
+
+.twitter {
+	color: #4099FF;
+}
+
+.facebook {
+	color: #3B5998;
+}
+
+.google {
+	color: #DB5A3C;
+}
+
+.instagram {
+	color: #5C3D2E;
+}
+
+.github {
+	color: #4183C4;
+}
+
+.icon-btn:hover {
+	-webkit-transform: scale(1.10);
+    	-ms-transform: scale(1.10); 
+    		transform: scale(1.10); 
+}
+
+.twitter:hover {
+	background-color: #4099FF;
+	color: #fff;
+}
+
+.facebook:hover {
+	background-color: #3B5998;
+	color: #fff;
+}
+
+.google:hover {
+	background-color: #DB5A3C;
+	color: #fff;
+}
+
+@media (min-width: 900px) {
+	header .container {
+    	height: 78px;
+	}
+	
+	header a {
+		line-height: 78px; 
+	}
+	
+	.hero {
+		height: 90vh;
+		background-size: 1300px auto;
+	}
+	
+	.slogan {
+		margin-top: 110px;
+		max-width: 800px;
+		padding:35px 40px;
+	}
+
+	.slogan h1 {
+		margin-right: 150px;
+	}
+	
+	.icons-container .fa {
+		padding: 20px;
+    	font-size: 50px;
+    	width: 30%;
+    	border-radius: 25px;
+    	color: white;
+    	background-color: #282825;
+    	margin-bottom: 20px;
+	}
+
+	.icons-container {
+		padding: 8%;
+	}
+
+	.icons-container h2 {
+		display: block;
+		margin: 10px;
+		font-weight: bold;
+		font-size: 19px;
+		transition: background linear .3s;
+	}
+
+	.icons-container p {
+		padding: 0 30px;	
+		font-size: 13px;
+		line-height: 20px;
+		color: #8b8484;
+	}
+
+	.container-about {
+		padding: 25px 100px;
+	    margin: 0 auto;
+	}
+
+	.about {
+		margin-top: 120px;
+		height: 350px;
+		background-size: 2000px auto;
+	}
+
+	[class*='text-'] {	
+  		margin: 15px;
+	}
+	
+	.numbers {
+		margin: 0 220px;
+		margin-bottom: 50px;
+	}
+
+	.numbers h1 {
+		font-size: 60px;
+		font-weight: bold;
+		margin: 45px 0 0 0;
+	}
+	
+	.container-1, .container-2 {
+		margin: 0 130px;
+	}
+
+	.container-1 {
+		height: 60px;
+	}
+}
+
+@media (max-width: 900px) {
+	header .container {
+		text-align: center;
+		height: 25vh;
+	}
+	
+	header a {
+		line-height: 5vh; 
+	}
+	
+	.hero {
+		height: 60vh;
+		background-size: 1000px auto;
+	}
+	
+	.slogan {
+		margin: 30vh 0 0vw 5vh;
+	}
+	
+	[class*="icon"] {
+		margin-top: 10%;
+	}
+	
+	.circle {
+		height: 10%;
+	}
+	
+	.featured-works {
+		margin-top: 5vh;
+		
+	}
+	.about img {
+		width: 100%;
+	}
+	
+	.numbers {
+		margin: 10%;
+	}
+	
+	.numbers [class*="col-"] {
+		padding: 5vw;
+	}
+	
+	footer .container-2{
+		padding: 5vw;
+	}
+	
+	.container-2 .row {
+		margin: 2vh;
+	}
+}
+
+[class*="col-"] {
+ 	float: left;
+ 	min-height: 1px;
+ }
+ 
+@media (max-width: 900px){
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media (min-width: 900px) {
+    /* For desktop: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
